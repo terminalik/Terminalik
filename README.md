@@ -132,7 +132,7 @@ Not yet available.
 ## GitHub Stats
 
 <p align="center">
-  <img alt="Alt" src="https://repobeats.axiom.co/api/embed/cef299e9c904903819554a7de3e8051a56698af0.svg" title="Repobeats analytics image"/>
+  <img alt="Alt" src = "https://repobeats.axiom.co/api/embed/2f20d54c2340cb10e3584d08d4c3f5d717353113.svg" title="Repobeats analytics image"/>
 </p>
 
 <a id="license"></a>
