@@ -1,0 +1,43 @@
+
+
+TabbedContent {
+  height: 1fr;
+}
+
+TabPane {
+  height: 1fr;
+}
+
+/* Make both panes fill available space */
+ReadmeMarkdown {
+  height: 1fr;
+}
+
+ProjectSetupPane {
+  height: 1fr;
+}
+
+/* Global styles for Terminalik */
+
+/* Ensure the main tab content uses most of the screen */
+#main_tabs {
+  height: 1fr;
+}
+
+/* Project setup form scroll area */
+#form_container {
+  height: auto;
+}
+
+/* Output title + log box */
+#output_title {
+  padding-top: 1;
+  display: none;
+}
+
+#output_log {
+  height: 1fr;
+  border: solid green;
+  padding: 1;
+  display: none;
+}

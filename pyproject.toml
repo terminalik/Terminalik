@@ -1,0 +1,47 @@
+[project]
+name = "terminalikssh"
+version = "0.1.0"
+readme = "README.md"
+authors = [
+  { name = "Terminalik" }
+]
+requires-python = ">=3.10"
+license = "MIT"
+keywords = ["textual", "tui", "django", "vue", "docker", "scaffold"]
+
+dependencies = [
+  "textual>=0.40",
+  "rich>=13",
+  "requests>=2",
+]
+
+[project.optional-dependencies]
+auth = [
+  "pymongo>=4",
+  "passlib[bcrypt]>=1.7",
+  "pyotp>=2",
+]
+
+[tool.black]
+line-length = 100
+target-version = ["py310", "py311", "py312", "py313"]
+
+[tool.isort]
+profile = "black"
+line_length = 100
+
+[tool.ruff]
+line-length = 100
+select = ["E", "F", "W", "I"]
+ignore = []
+
+[tool.setuptools.packages.find]
+include = [
+  "pages*",
+  "components*",
+  "utils*",
+]
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
